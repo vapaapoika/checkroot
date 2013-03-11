@@ -1,3 +1,5 @@
+checkroot
+
 DESCTIPTION
 
 This small script, checks if there is enough available disk space on root partition (more than 10M).
