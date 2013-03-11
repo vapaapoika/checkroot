@@ -1,0 +1,16 @@
+DESCTIPTION
+
+This small script, checks if there is enough available disk space on root partition (more than 10M).
+If there isn't, it will close and delete NetworkManager's connection, so it won't start again, untill the user restores the backups
+
+WARNING: This script only works with NetowrkManager
+
+GETTING STARTED
+
+The only thing you have to do is to copy the script (checkroot.sh) to /usr/bin (or any other directory wrote in your PATH variable) and add it to startup.
+
+EDITING THE SCRIPT
+
+If you want to change the least root partition size (default: 10M), you should change the "least" variable.
+
+If you are not using NetworkManager, change the "downcon" function. If you don't know how to do this, discover it or remove the script and search for another one.
