@@ -10,6 +10,9 @@ WARNING: This script only works with NetowrkManager
 GETTING STARTED
 
 The only thing you have to do is to copy the script (checkroot.sh) to /usr/bin (or any other directory wrote in your PATH variable) and add it to startup.
+If you want to have a backup of your NetworkManager connections, copy /etc/NetworkManager/system-connections directory to ~/.nm-cons-bac or wherever you want (You need root access to do it):
+
+# cp -r /etc/NetworkManager/system-connections ~/.nm-cons-bac
 
 EDITING THE SCRIPT
 
