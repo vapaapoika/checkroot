@@ -1,6 +1,4 @@
 #! /bin/bash
-#  Check if there is enough available disk space on root partition (more than 10M).
-#  If there isn't, it will close and delete NetworkManager's connection, so it won't start again, untill the user comes, knows about it and restores the backups
 
 # Set the least root partition size here
 least=10
