@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Set the least root partition size here
+# Set the least root partition size here (in megabytes) (default: 10)
 least=10
 
 function downcon() {
